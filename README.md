@@ -2,7 +2,7 @@
 
 The landing page for https://freifick.net. Static HTML/CSS/JS with a handwritten assembly game
 compiled to WebAssembly by the Nix build; no browser runtime dependencies.
-Source: https://github.com/slopinger/slop-landing. Code under the MIT license (see `LICENSE`);
+Source: https://github.com/slopmaxxer/slop-landing. Code under the MIT license (see `LICENSE`);
 the fonts in `site/fonts/` are under the SIL Open Font License 1.1.
 
 Pages (plain HTML; the marquee, nav, controls and footer are copied into each page, so keep them in sync):
@@ -119,7 +119,7 @@ into the old web root. `deploy.sh` is retained only as an obsolete Arch artifact
 ## slopbox announcement
 
 The home page `#mayfly` card links https://slopbox.freifick.net and its
-[public Gleam source](https://github.com/slopinger/mayfly). slopbox (formerly mayfly) is a separate
+[public Gleam source](https://github.com/slopmaxxer/mayfly). slopbox (formerly mayfly) is a separate
 service: anonymous temporary uploads up to 200 MiB with 1/12/24/72-hour lifetimes.
 The compact announcement mentions the anime artwork and uses existing card/sticker styles and introduces no new site API.
 

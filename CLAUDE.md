@@ -13,7 +13,7 @@ and README current as part of every behavior, page structure, test or operationa
 - `site/slop.js` is shared core; optional modules start only where their elements exist. Preserve
   reduced-motion behavior, opt-in sound, accessibility labels and existing interactive features.
 - Home `#mayfly` uses a short announcement (upload limits + anime artwork) to advertise slopbox, the Gleam temporary file host at https://slopbox.freifick.net,
-  linking its public MIT source at https://github.com/slopinger/mayfly. Keep limits in sync
+  linking its public MIT source at https://github.com/slopmaxxer/mayfly. Keep limits in sync
   with that service (200 MiB, 1/12/24/72 hours).
 - Home `#network` describes dn42 + trough software/instance. Verify dn42 facts against the live BIRD/
   dummy interface and registry objects before changing published network details.
@@ -29,7 +29,7 @@ and README current as part of every behavior, page structure, test or operationa
 - Local backups are handled by `~/src/server-backups` and its daily timer; README there has restore steps.
   Public guestbook entries are user content: do not moderate or delete them without an actual reason.
 - Check git status, sign commits and push only your changes; preserve concurrent sessions' work.
-  The repo lives on GitHub only: push to `origin` (https://github.com/slopinger/slop-landing),
+  The repo lives on GitHub only: push to `origin` (https://github.com/slopmaxxer/slop-landing),
   `git push origin main`. There is no second remote or mirror.
 - Use small commits: one logical change per commit (with its tests/docs), each passing the checks above.
   Don't bundle unrelated changes or a whole session's work into one commit.
@@ -73,9 +73,12 @@ and README current as part of every behavior, page structure, test or operationa
   x86_64-linux and aarch64-linux. Keep `hydraJobs` exported.
 
 ## Profiles and persona sync
-- Profile texts live in: the GitHub profile (`gh api -X PATCH user -f bio=...`) and its profile README
-  repo `~/src/slopinger`, the trough `@slop` profile (Mastodon API `update_credentials` or `/settings`;
-  its "Code" field links https://github.com/slopinger) and `site/about/`. Update them together.
+- Profile texts live in: the GitHub profile of `slopmaxxer` (`gh api -X PATCH user -f bio=...`) and its
+  profile README repo `~/src/slopmaxxer`, the trough `@slop` profile (Mastodon API `update_credentials`
+  or `/settings`; its "Code" field links https://github.com/slopmaxxer) and `site/about/`. Update them
+  together. The old `slopinger` account and `~/src/slopinger` are retired (flagged, see home CLAUDE.md).
+- The GitHub bio is "coding as an idle game" (the user's choice, 2026-11-03); the other bios still use
+  the line below.
 - Bios stay plain and understated ("i write code, run servers, and love slopping. she/her") with
   website links; don't explain the persona or list meme vocabulary. The avatar everywhere is
   `assets/slop-avatar.png` (Tsukasa Hiiragi with yellow ribbon and sweatdrop), same as GitHub.

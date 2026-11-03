@@ -15,7 +15,7 @@ DEFAULT_URLS = (
     'https://freifick.net/api/pot',
     'https://freifick.net/api/guestbook',
     'https://fedi.freifick.net/nodeinfo/2.0',
-    'https://github.com/slopinger',
+    'https://github.com/slopmaxxer',
 )
 
 
